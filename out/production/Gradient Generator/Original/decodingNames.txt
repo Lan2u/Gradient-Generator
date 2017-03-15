@@ -1,0 +1,26 @@
+First character is the red colours function as the row increases
+Second character is the red colours function as the column increases
+Third character is the green colours function as the row increases
+Forth character is the green colours function as the column increases
+Fifth character is the blue colours function as the row increases
+Sixth character is the blue colours function as the column increases
+If the function is a constant then instead of a character a 3 digit number representing the constant is added instead
+
+Table of characters:
+I              - Increasing linearly (0.0 -> 1.0)
+S              - Varying according to SIN
+D              - Decreasing linearly (1.0 -> 0.0)
+N              - None (Unaffected)
+C              - Varying according to COS
+
+Eg.
+N100DN102102.png
+Equals
+Red constantly 100 throughout
+Green decreasing as you go down the image (top to bottom) and unaffected as you go across (left to right)
+Blue is constantly 102 throughout
+
+If an image has 2 different numbers for it's row and column of a particular colour then those colours are averaged @@@ NOT YET IMPLEMENTED
+
+A hashtag then a number at the end is used for duplicates so for example N100DN102102#2 means that this file is the second duplicate (or 3rd actual) file which
+is identical to this one

@@ -1,0 +1,12 @@
+IMAGES WHERE PIXELS ARE DECIDEDE IRRESPECTIVE OF ROW/COLUMN AND JUST PIXEL COUNT/NUMBER
+Function Deciding Red Value - Function Deciding Green Value - Function Deciding Blue Value
+####-####-####
+linear = increasing by each pixel
+-linear = decreasing by each pixel
+cos = increases/decreases according to a cos graph
+sin = same as above but with sin
+tan = same as above but with tan
+
+IMAGES WHERE THE COLOUR CHANGES ALONG THE ROW OR DOWN THE COLUMN
+
+H(#COLOUR ON LEFT# - #COLOUR ON RIGHT#) - V(#COLOUR AT TOP# - #COLOUR AT BOTTOM#)
